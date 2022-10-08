@@ -1,13 +1,68 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+/* body { */
+  /* background-image: url("https://media.tenor.com/7mHT4ERzAIIAAAAC/eevee-evolution.gif"); */
+  /* background-repeat: no-repeat;
+  background-size: cover; */
+  
+/* } */
+
+nav {
+  background: #ebebeb;
+  padding: 30px;
+  font-size: 1.5rem;
+  text-align: center;
+  font-weight: bold;
+  box-shadow: 1px 1px 1px #c7c7c7;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+.active {
+  color: red;
+  text-decoration: none;
+}
+
+.no-active {
+  color: #4f5a57;
+  text-decoration: none;
+}
+
+.welcome {
+  text-align: center;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+}
+
+.img-pikachu {
+  width: 25rem;
+}
+
+.search {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+}
+
+.selector {
+  margin: 1rem;
+  padding: 10px;
+  text-align: center;
+}
+
+button {
+  background-color: rgb(0, 0, 0);
+  color: white;
+  padding: 7px;
+}
+
+h1{
+padding-top: 3%;
+padding-bottom: 4%;
+color: rgb(0, 0, 0);
+font-family: 'Pokemon Solid', sans-serif;
+text-shadow: -2px -2px 2px rgb(255, 238, 0);
+text-shadow: 1px 1px 1px rgb(255, 230, 0);
+}
+.result{
+display: flex;
+align-items: center;
+justify-content: center;
 }
